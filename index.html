@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrab Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Chart Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"
+    />
+    <!-- Custon Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Admin Dasboard</title>
+  </head>
+  <body>
+    <!-- Dashboard -->
+    <div class="main">
+      <div class="row">
+        <!--  -->
+        <div class="col-md-2 padding-0">
+          <div class="left ">
+            <div class="logo py-2 px-3 custom-border">
+              <span>B</span>
+              <span>Angular</span>
+            </div>
+            <!-- Navigation -->
+            <ul class="list-group mt-2 px-3 custom-border">
+              <span class="head mx-2 pb-2">Navigation</span>
+              <li class="list-group-item">
+                <span class="items">
+                  <img src="imgs/bar-chart-2.svg" alt="">
+                  <span>Dashboard</span>
+                </span>
+              </li>
+              <li class="list-group-item">
+                <span class="items">
+                  <i class="fas fa-calendar-alt" style="color: #1879a2;"></i>
+                  <span>Calender</span>
+                </span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-envelope" style="color: #377898;"></i>
+                  <span>Email</span>
+                </span>
+                <span class="badge bg-primary rounded-pill" style="background-color: #377898;color: #fff;">1</span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  mb-2
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-globe" style="color: #0b581d;"></i>
+                  <span>Widgets</span>
+                </span>
+                <span class="badge bg-primary rounded-pill" style="background-color: #0b581d;color: #fff;">1</span>
+              </li>
+            </ul>
+            <!-- Components -->
+            <ul class="list-group mt-2 px-3 custom-border">
+              <span class="head mx-2 pb-2">Components</span>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-briefcase"></i>              
+                  <span>Ui Kits</span>
+                </span>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-calendar-alt"></i>
+                  <span>Table</span>
+                </span>
+                <span class="items">
+                  <span class="badge bg-primary rounded-pill">1</span>
+                  <i class="fas fa-angle-right"></i>
+                </span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-edit"></i>
+                  <span>Form</span>
+                </span>
+                <i class="fas fa-angle-right"></i>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-signal"></i>
+                  <span>Chart</span>
+                </span>
+              </li>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  mb-2
+                "
+              >
+                <span class="items">
+                 <i class="fas fa-file"></i>
+                  <span>Pages</span>
+                </span>
+                <i class="fas fa-angle-right"></i>
+              </li>
+            </ul>
+            <!-- YOur Stuff -->
+            <ul class="list-group px-3 mt-2">
+              <span class="head mx-2 pb-2">Your Stuff</span>
+              <li
+                class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span class="items">
+                  <i class="fas fa-user" style="color:#22af43;"></i>
+                  <span>Profile</span>
+                </span>
+                <span class="badge bg-primary rounded-pill" style="background-color: #22af43;">1</span>
+              </li>
+              <li class="list-group-item">
+                <span class="items">
+                  <i class="far fa-question-circle"></i>
+                  <span>Documents</span>
+                </span>
+              </li>
+            </ul>
+            <!-- Progress -->
+            <div class="all-progress px-3 mt-3">
+              <!-- progrss-1 -->
+              <div class="progrss-1 px-2">
+                <div
+                  class="
+                    text
+                    mx-2
+                    mb-2
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                 
+                >
+                  <span>Milestone</span>
+                  <span>60%</span>
+                </div>
+                <div class="progress mx-2 mb-4" style="height: 2px">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 60%;background-color: #38bae1; "
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <!-- progress-2 -->
+              <div class="progress-2 px-2">
+                <div
+                  class="
+                    text
+                    mx-2
+                    mb-2
+                    d-flex
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <span>Release</span>
+                  <span>35%</span>
+                </div>
+                <div class="progress mx-2 mb-4" style="height: 2px">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 35%;background-color: #7667b0;"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- End progress -->
+          </div>
+        </div>
+        <!-- End Eside Left -->
+        <div class="col-md-10 padding-0">
+          <div class="right">
+            <!--start right-->
+            <!-- Navbar -->
+            <nav
+              class="
+                d-flex
+                px-3
+                py-2
+                justify-content-between
+                align-items-center
+              "
+            >
+              <div class="nav-left d-flex align-items-center">
+                <i class="fas fa-table"></i>
+                <i class="fas fa-user"></i>
+                <span class="d-flex align-items-center upload">
+                  <i class="fas fa-cloud-upload-alt"></i>
+                  Upload
+                </span>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>New</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div class="search d-flex">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="search projects..."
+                  />
+                  <i class="fas fa-search"></i>
+                </div>
+              </div>
+              <!-- Nav right -->
+              <div
+                class="
+                  nav-right
+                  d-flex
+                  px-3
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <select class="form-select" aria-label="Default select example" style="width: 108px;">
+                  <option selected>English</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <i class="fas fa-expand-alt"></i>
+                <button type="button" class="btn notyfy btn-primary">
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill bg-danger">
+                    2
+                    <!-- translate-middle -->
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </button>
+                <select class="form-select" aria-label="Default select example" style="width: 130px;"> 
+                  <option selected>John.Smith</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div class="image d-flex">
+                  <img src="imgs/download.jpg" alt="personal image" />
+                  <span class="online-status"></span>
+                </div>
+                <!-- </div> -->
+              </div>
+            </nav>
+            <!-- Start Content -->
+            <div
+              class="content"
+              style="background-color: grey; overflow: hidden"
+            >
+              <div class="row">
+                <div class="col-md-9 padding-0">
+                  <div class="content-left">
+                    <!-- Start Dashboard -->
+                    <div
+                      class="
+                        dashboard
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        px-4
+                        py-3
+                      "
+                    >
+                      <div>
+                        <p>Dashboard</p>
+                        <span>welcome to anguar application</span>
+                      </div>
+                      <div class="items d-flex">
+                        <!-- small chart -->
+                        <span class="px-4"
+                          >1920 item
+                          <div class="minibar minibar--mini">
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jan<br />10</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 10%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Feb<br />20</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 20%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Mar<br />30</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 30%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Apr<br />25</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 25%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">May<br />40</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 40%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jun<br />70</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 70%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jul<br />80</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 80%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Aug<br />100</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 100%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Sep<br />60</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 60%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Oct<br />50</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 50%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Nov<br />40</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 40%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Dec<br />35</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 35%"
+                              ></div>
+                            </div>
+                          </div>
+                        </span>
+                        <span
+                          >$30,000 revenue
+                          <div class="minibar minibar--mini">
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jan<br />10</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 10%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Feb<br />20</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 20%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Mar<br />30</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 30%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Apr<br />25</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 25%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">May<br />40</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 40%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jun<br />70</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 70%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Jul<br />80</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 80%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Aug<br />100</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 100%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Sep<br />60</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 60%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Oct<br />50</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 50%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Nov<br />40</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 40%"
+                              ></div>
+                            </div>
+                            <div class="minibar__bar">
+                              <span class="minibar__tooltip">Dec<br />35</span>
+                              <div
+                                class="minibar__fill"
+                                style="height: 35%"
+                              ></div>
+                            </div>
+                          </div>
+                        </span>
+                        <!-- small chart -->
+                      </div>
+                    </div>
+                    <!-- End Dashboard -->
+                    <div class="main-chart px-3 pt-4">
+                      <div class="row mx-2">
+                        <div class="col-md-5">
+                          <div class="squares">
+                            <div class="square">
+                              <span>521</span>
+                              <span>New Items</span>
+                              <i class="fas fa-caret-up"></i>
+                            </div>
+                            <div class="square">
+                              <span>930</span>
+                              <span>New Items</span>
+                              <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <div class="square">
+                              <span>432</span>
+                              <span>New Items</span>
+                              <i class="fas fa-caret-up"></i>
+                            </div>
+                            <div class="square">
+                              <span>129</span>
+                              <span>New Items</span>
+                              <i class="fas fa-caret-up"></i>
+                            </div>
+                          </div>
+                          <div class="circle-three-quarter mt-4">
+                            <div class="main-circle">
+                              <div class="circle"></div>
+                            </div>
+                            <div class="text">
+                              <p>$12,600</p>
+                              <span>Revenue,60% of the goal</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-7 padding-0">
+                          <div class="custom-chart">
+                            <p class="pb-2">Latest Campagin</p>
+                            <div class="form-check form-switch">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="flexSwitchCheckChecked"
+                                checked
+                              />
+                            </div>
+                            <div class="chart-circle">
+                              <div class="d-flex align-items-center">
+                                <span class="circle1"></span>
+                                <span>Tv</span>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <span class="circle2"></span>
+                                <span>Mag</span>
+                              </div>
+                            </div>
+                            <div class="chart pt-5">
+                              <canvas id="myChart"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-7 padding-0">
+                          <div class="chart2 mt-4 pt-3">
+                            <p class="px-3 m-0">Managed Services</p>
+                            <span class="px-3">Services report of this year(updated one hour ago)</span>
+                            <canvas
+                              id="myChart2"
+                              width="400"
+                              height="248"
+                            ></canvas>
+                          </div>
+                        </div>
+                        <div class="col-md-5 padding-0">
+                          <div class="reports my-4 py-4 px-4">
+                            <p class="px-2">Reports</p>
+                            <!-- progrss-1 -->
+                            <div class="progrss-1">
+                              <div
+                                class="
+                                  text
+                                  mx-2
+                                  mb-2
+                                  d-flex
+                                  justify-content-between
+                                  align-items-center
+                                "
+                              >
+                                <span>Consulting</span>
+                                <span>60%</span>
+                              </div>
+                              <div
+                                class="progress mx-2 mb-4"
+                                style="height: 6px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 60%;background-color:#7667b0 ;"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- progrss-2 -->
+                            <div class="progrss-1">
+                              <div
+                                class="
+                                  text
+                                  mx-2
+                                  mb-2
+                                  d-flex
+                                  justify-content-between
+                                  align-items-center
+                                "
+                              >
+                                <span>Online Tutorials</span>
+                                <span>35%</span>
+                              </div>
+                              <div
+                                class="progress mx-2 mb-4"
+                                style="height: 6px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 35%;background-color:#38bae1 ;"
+                                  aria-valuenow="35"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+                            </div>
+                            <!-- progrss-3 -->
+                            <div class="progrss-1">
+                              <div
+                                class="
+                                  text
+                                  mx-2
+                                  mb-2
+                                  d-flex
+                                  justify-content-between
+                                  align-items-center
+                                "
+                              >
+                                <span>EDU Management</span>
+                                <span>60%</span>
+                              </div>
+                              <div
+                                class="progress mx-2 mb-4"
+                                style="height: 6px"
+                              >
+                                <div
+                                  class="progress-bar"
+                                  role="progressbar"
+                                  style="width: 25%;background-color: #e1c64c ;"
+                                  aria-valuenow="25"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100"
+                                ></div>
+                              </div>
+                            </div>
+                            <p class="px-2  mb-4">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Ipsam laudantium aut officia voluptatum ea!
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div
+                            class="
+                              tasks
+                              d-flex
+                              justify-content-between
+                              mt-4
+                              p-2
+                            "
+                          >
+                            <div class="mytasks">
+                              <p>My Tasks</p>
+                              <div class="groups">
+                                <div class="grpup">
+                                  <button class="btn btn-warning btn-sm">
+                                    19:30
+                                  </button>
+                                  <span>Feed Cat</span>
+                                </div>
+                                <div class="grpup">
+                                  <button class="btn btn-info btn-sm">
+                                    12:30
+                                  </button>
+                                  <span>Fishing Time</span>
+                                </div>
+                                <div class="grpup">
+                                  <button class="btn btn-primary btn-sm">
+                                    10:30
+                                  </button>
+                                  <span>Kick-off Meeting</span>
+                                </div>
+                                <div class="grpup">
+                                  <button class="btn btn-light btn-sm">
+                                    17:30
+                                  </button>
+                                  <span>Morning Running</span>
+                                </div>
+                              </div>
+                              <p class="arrow-circle">
+                                <i class="fas fa-arrow-right"></i></p>
+                              </p>
+                            </div>
+
+                            <div class="tasks-circle">
+                              <div class="piechart" data-percent="70">
+                                <p class="percentge">70%</p>
+                              </div>
+                              <div class="piechart" data-percent="95">
+                                <p class="percentge">95%</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="teamates mt-4 px-2 py-3">
+                              <div class="shapes d-flex justify-content-between align-items-center">
+                                <p>Teamates</p>
+                                <div class="shape d-flex justify-content-between align-items-center">
+                                  <div class="shape1 d-flex justify-content-between align-items-center">
+                                    <span class="circle"></span>
+                                    <span>12</span>
+                                  </div>
+                                  <div class="shape1 d-flex justify-content-between align-items-center">
+                                    <span class="circle "></span>30
+                                  </div>
+                                  <div class="shape1 d-flex justify-content-between align-items-center">
+                                    <span class="circle"></span>98
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card-img d-flex justify-content-between align-items-center  ">
+                                <div class="image">
+                                  <img src="imgs/download.jpg" alt="">
+                                  <span>Demon Parker</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm" style="background-color: #7667b0; border-color:#7667b0 ;">Admin</button>
+                              </div>
+                              <div class="card-img d-flex justify-content-between align-items-center mt-3 ">
+                                <div class="image">
+                                  <img src="imgs/download.jpg" alt="">
+                                  <span>Demon Parker</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm" style="background-color: #38bae1;border-color:#38bae1 ;">Admin</button>
+                              </div>
+                              <div class="card-img d-flex justify-content-between align-items-center mt-3 ">
+                                <div class="image">
+                                  <img src="imgs/download.jpg" alt="">
+                                  <span>Demon Parker</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm" style="background-color: #e1c64c;border-color: #e1c64c;">Admin</button>
+                              </div>
+                              <div class="card-img d-flex justify-content-between align-items-center mt-3 ">
+                                <div class="image">
+                                  <img src="imgs/download.jpg" alt="">
+                                  <span>Demon Parker</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm" style="background-color: #e1c64c;border-color: #e1c64c;">Admin</button>
+                              </div>
+                              <div class="addtem d-flex justify-content-between align-items-center mt-3">
+                                <div class="add d-flex align-items-center">
+                                  <div class="plus">
+                                    <i class="fas fa-plus"></i>
+                                  </div>
+                                  <button class="btn btn-info" style="background-color: #7667b0;border-color: #7667b0;">Add Templete</button>
+                                </div>
+                                <span class="badge bg-primary rounded-pill">32</span>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                         <div class="cards mt-4 ">
+                           <!-- Start Card  -->
+                           <div class="card px-2 mb-1" style="max-width: 500px">
+                           <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-3 online">
+                              <img
+                                src="imgs/download.jpg"
+                                class="img-fluid"
+                                alt="..."
+                                style="border-radius: 50%"
+                              />
+                              <span class="online-status"></span>
+                              <!-- <span></span> -->
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <h5 class="card-title">Chris Fox</h5>
+                                <p class="card-text">
+                                  <small class="text-muted"
+                                    >Designer, Blogger</small
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <!-- End Card -->
+                           <!-- Start Card  -->
+                           <div class="card px-2 mb-1" style="max-width: 500px">
+                           <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-3 online">
+                              <img
+                                src="imgs/download.jpg"
+                                class="img-fluid"
+                                alt="..."
+                                style="border-radius: 50%"
+                              />
+                              <span class="online-status"></span>
+                              <!-- <span></span> -->
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <h5 class="card-title">Chris Fox</h5>
+                                <p class="card-text">
+                                  <small class="text-muted"
+                                    >Designer, Blogger</small
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <!-- End Card -->
+                           <!-- Start Card  -->
+                           <div class="card px-2 mb-1" style="max-width: 500px">
+                           <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-3 online padding-0">
+                              <img
+                                src="imgs/download.jpg"
+                                class="img-fluid"
+                                alt="..."
+                                style="border-radius: 50%"
+                              />
+                              <span class="online-status"></span>
+                              <!-- <span></span> -->
+                            </div>
+                            <div class="col-md-9 padding-0">
+                              <div class="card-body">
+                                <h5 class="card-title">Chris Fox</h5>
+                                <p class="card-text">
+                                  <small class="text-muted"
+                                    >Designer, Blogger</small
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <!-- End Card -->
+                           <!-- Start Card  -->
+                           <div class="card px-2 mb-1" style="max-width: 500px">
+                           <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-3 online padding-0">
+                              <img
+                                src="imgs/download.jpg"
+                                class="img-fluid"
+                                alt="..."
+                                style="border-radius: 50%"
+                              />
+                              <span class="online-status"></span>
+                              <!-- <span></span> -->
+                            </div>
+                            <div class="col-md-9 padding-0">
+                              <div class="card-body">
+                                <h5 class="card-title">Chris Fox</h5>
+                                <p class="card-text">
+                                  <small class="text-muted"
+                                    >Designer, Blogger</small
+                                  >
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          <!-- End Card -->
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 padding-0">
+                  <div class="content-right">
+                    <div
+                      class="social d-flex justify-content-between mx-4 pt-3"
+                    >
+                      <i class="fas fa-user"></i>
+                      <i class="fas fa-comment-alt"></i>
+                      <i class="fas fa-arrows-alt-h"></i>
+                      <div class="setting">
+                        <i class="fas fa-cog"></i>
+                      </div>
+                    </div>
+                    <!-- start progrss -->
+                    <div class="progrss-1 mt-3">
+                      <div class="progress mb-4" style="height: 1px">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 40%;background-color: #38bae1;"
+                          aria-valuenow="25"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                    <!-- end progrss -->
+                    <!-- Start followers -->
+                    <div class="followers mx-2">
+                      <h6>who you follow</h6>
+                      <div class="card mb-3" style="max-width: 500px">
+                        <div class="row g-0 d-flex align-items-center">
+                          <div class="col-md-3 online">
+                            <img
+                              src="imgs/download.jpg"
+                              class="img-fluid"
+                              alt="..."
+                              style="border-radius: 50%"
+                            />
+                            <span class="online-status"></span>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Chris Fox</h5>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >Designer, Blogger</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 500px">
+                        <div class="row g-0 d-flex align-items-center">
+                          <div class="col-md-3 online">
+                            <img
+                              src="imgs/download.jpg"
+                              class="img-fluid"
+                              alt="..."
+                              style="border-radius: 50%"
+                            />
+                            <span class="online-status"></span>
+                            <!-- <span></span> -->
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Chris Fox</h5>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >Designer, Blogger</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 500px">
+                        <div class="row g-0 d-flex align-items-center">
+                          <div class="col-md-3 online">
+                            <img
+                              src="imgs/download.jpg"
+                              class="img-fluid"
+                              alt="..."
+                              style="border-radius: 50%"
+                            />
+                            <span class="online-status"></span>
+                            <!-- <span></span> -->
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Chris Fox</h5>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >Designer, Blogger</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 500px">
+                        <div class="row g-0 d-flex align-items-center">
+                          <div class="col-md-3 online">
+                            <img
+                              src="imgs/download.jpg"
+                              class="img-fluid"
+                              alt="..."
+                              style="border-radius: 50%"
+                            />
+                            <span class="online-status"></span>
+                            <!-- <span></span> -->
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Chris Fox</h5>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >Designer, Blogger</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3" style="max-width: 500px">
+                        <div class="row g-0 d-flex align-items-center">
+                          <div class="col-md-3 online">
+                            <img
+                              src="imgs/download.jpg"
+                              class="img-fluid"
+                              alt="..."
+                              style="border-radius: 50%"
+                            />
+                            <span class="online-status"></span>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="card-body">
+                              <h5 class="card-title">Chris Fox</h5>
+                              <p class="card-text">
+                                <small class="text-muted"
+                                  >Designer, Blogger</small
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End followers -->
+                    <div class="btn btn-primary mx-5">More Connections</div>
+                    <!-- Start Timeline -->
+                    <div class="timeline">
+                      <ul>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li class="tasks">
+                          <button class="btn btn-primary">
+                            Create Tasks for the team
+                          </button>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                        <li>
+                          <span class="line"></span>
+                          <span>2 minutes ago</span>
+                          <p>good is now follwing you</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- End Timeline -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Content -->
+
+            <!-- end right-->
+          </div>
+        </div>
+        <!--end page  -->
+      </div>
+    </div>
+    <!-- Chart js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"
+      integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
